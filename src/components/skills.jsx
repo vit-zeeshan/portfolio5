@@ -1,8 +1,8 @@
 import React from 'react';
 import CLogo from "./skills/c.png";
-import CPPLogo from "./skills/cpp.png";
+// import CPPLogo from "./skills/cpp.png";
 import DockerLogo from "./skills/docker.png";
-import FlaskLogo from "./skills/flask.svg";
+// import FlaskLogo from "./skills/flask.svg";
 import GitLogo from "./skills/git.png";
 import GitLabLogo from "./skills/gitlab.png";
 import HTMLLogo from "./skills/html.png";
@@ -14,7 +14,7 @@ import MongoLogo from "./skills/mongo.png";
 import SQLLogo from "./skills/mysql.svg";
 import PythonLogo from "./skills/python.svg";
 import ReactLogo from "./skills/react.png";
-import SelLogo from "./skills/selenium.svg";
+// import SelLogo from "./skills/selenium.svg";
 import TailwindLogo from "./skills/tailwind.png";
 import VimLogo from "./skills/vim.png";
 import BashLogo from "./skills/bash.svg";
@@ -39,7 +39,7 @@ const Skills = () => {
               <div className="flex flex-row justify-center items-center">
                 <img src={DockerLogo} alt="Docker" className="w- h-10 mr-2" />
                 <img src={KubLogo} alt="Kubernetes" className="w-10 h-10 mr-2" />
-                <img src={SelLogo} alt="Selenium" className="w-10 h-10 mr-2" />
+                {/* <img src={SelLogo} alt="Selenium" className="w-10 h-10 mr-2" /> */}
                 <img src={BashLogo} alt="Bash" className="w-10 h-10 mr-2" />
               </div>
             </div>
@@ -58,7 +58,7 @@ const Skills = () => {
               <h2 className="text-left font-light text-xl font-serif text-white mr-4">Languages</h2>
               <div className="flex flex-row justify-center items-center">
                 <img src={CLogo} alt="C" className="w-10 h-10 mr-2" />
-                <img src={CPPLogo} alt="C++" className="w-10 h-10 mr-2" />
+                {/* <img src={CPPLogo} alt="C++" className="w-10 h-10 mr-2" /> */}
                 <img src={JavaLogo} alt="Java" className="w-10 h-10 mr-2" />
                 <img src={PythonLogo} alt="Python" className="w-10 h-10 mr-2" />
               </div>
@@ -66,7 +66,7 @@ const Skills = () => {
             <div className="skill-group flex flex-row items-center mb-4 lg:w-1/2">
               <h2 className="text-left font-light text-xl font-serif text-white mr-4">Other Skills</h2>
               <div className="flex flex-row justify-center items-center">
-                <img src={FlaskLogo} alt="Flask" className="w-10 h-10 mr-2" />
+                {/* <img src={FlaskLogo} alt="Flask" className="w-10 h-10 mr-2" /> */}
                 <img src={GitLogo} alt="Git" className="w-10 h-10 mr-2" />
                 <img src={GitLabLogo} alt="GitLab" className="w-10 h-10 mr-2" />
                 <img src={LinuxLogo} alt="Linux" className="w-10 h-10 mr-2" />

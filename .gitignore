@@ -1,0 +1,31 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (if using dotenv)
+.env
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Tailwind (if you use any custom build output)
+public/build/
+
+# Optional: Coverage directory for testing (if you use Jest or other testing frameworks)
+coverage/
+
+# Temporary files
+*.log

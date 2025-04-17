@@ -38,7 +38,7 @@ const ContactForm = () => {
   return (
     <div className="py-20 overflow-y-auto max-h-screen md:max-h-full">
       <div className="flex items-center justify-center mb-10">
-        <h2 className="text-2xl font-light text-white">Heyo, lets connect</h2>
+        <h2 className="text-2xl font-light text-white">Hello, lets connect</h2>
       </div>
       
       <form onSubmit={handleSubmit} className="max-w-md mx-auto p-10 rounded-md shadow-md">
